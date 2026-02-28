@@ -1,4 +1,4 @@
-const API_KEY = "YOUR_OPENAI_API_KEY"
+const API_KEY = "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"
 
 async function generateQuiz(){
 
