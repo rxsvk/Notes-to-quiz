@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AI Notes to Quiz Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Notes → Quiz Generator</h1>
+
+<textarea id="notesInput" placeholder="Paste your study notes here..."></textarea>
+
+<button onclick="generateQuiz()">Generate Quiz</button>
+
+<div id="loading"></div>
+
+<form id="quizForm"></form>
+
+<button id="submitBtn" onclick="calculateScore()" style="display:none">
+Submit Quiz
+</button>
+
+<h2 id="result"></h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
